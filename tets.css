@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /*PAGE 1 */
+  section {
+      text-align: center;
+  }
+
+  #ex1{
+      height: 100vh;
+      height: 1000px;
+     background-image: url(fondbleu.jpeg);
+     background-size: cover;     
+  }
+
+#logo1{
+
+height: 150px;
+margin-top: 200px;
+
+}
+h1{
+    font-size: 18px;
+    text-align: center;
+   color: #fff;
+   
+  }
+  #slogan2{
+      
+      color:#00BFFF;
+  }
+
+button { 
+    background-color:#D85A71;
+    color: white;
+    border-radius: 18px;
+    margin-top:450px;
+    padding: 5px;
+}
+
+
+   /*2eme page*/
+#ex2 {
+    height: 100vh;
+    height: 1000px;
+    background-color:#DCDCDC;
+    position: relative;
+}
+.debutpage img{
+    height: 50px;
+    width: 200px;
+    margin-right: 1000px;
+}
+    
+.texto{
+    color:#00BFFF
+}
+#ex2 h1 {
+    color: black; 
+
+}
+.coucou{
+    background:center/520px no-repeat  url(circles.svg),center/550px no-repeat url(tablette.png);
+    font-size: 13px;
+    display: grid;
+    grid-template-columns: 30%, 50%, 20%;
+    grid-template-rows: 20%, 20%, 20% 20%;
+    padding: 100px;
+
+}
+.coucou h2{
+    color: #00BFFF;
+}
+.s1{
+    grid-row:1/4 ;
+    grid-column:1/3 ;
+    width: 150px;
+}
+.s2{
+    grid-row:4/4 ;
+    grid-column:1/3 ;
+    width: 150px;
+}
+.s3{
+    width: 150px;
+    grid-row:2/4 ;
+    grid-column:3/3 ;
+    margin-left: 600px;
+}
+.s4{
+    width: 150px;
+    grid-row:3/4 ;
+    grid-column:3/3 ;
+    margin-left:600px;
+    margin-top: 200px;
+   
+}
+.s5{
+    width: 150px;
+    grid-row:4/4 ;
+    grid-column:3/3 ;
+    margin-left: 600px;
+  
+}
+#robot{
+    margin:auto;
+    position: absolute;
+    top: 500px;
+    left: 360px;
+}
+
+#bouton1{
+   margin:auto;
+   position: absolute;
+   top: 700px;
+
+}
+/*3eme page*/
+
+.section3{
+    height: 100px;
+    background-color: white;
+    margin-right: 550px;  
+}
+
+#logo{
+    height: 50px;
+    margin-right: 400px;
+    
+}
+.s1{
+    text-align: right;
+    margin-top: 40px;
+}
+.s2{
+    text-align: right;
+    margin-top: 40px;
+}
+.s3{
+    text-align: left;
+    margin-bottom: 70px;
+}
+.s4{
+    text-align: left;  
+}
+.s5{
+    text-align: left;
+    margin-bottom: 150px;
+}
+.bouton1{
+    margin-top: 100px;
+}
+/*4eme page*/
+.section4{
+    background-color: #dd8F16;
+    height: 1000px;
+   
+}
+
+table {
+    
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+table,
+td,
+th,
+tr,
+caption {
+    border-collapse: collapse;
+  
+    padding: 10px;
+}
+
+.th {
+    background-color: #d3d3d3;
+}
+
+tfoot {
+    text-align: center;
+}
+tbody tr:nth-child(odd) td:nth-child(2){
+    background-color: #9AD2FF;
+}
+tbody tr:nth-child(even) td:nth-child(2){
+    background-color: #CDE9FF;
+
+}
+
+tbody tr:nth-child(odd) td:nth-child(3){
+    background-color: #5cc7c2;
+}
+tbody tr:nth-child(even) td:nth-child(3){
+    background-color: rgb(163, 219, 241);
+}
+tbody tr:nth-child(odd) td:nth-child(4){
+    background-color: rgb(221, 154, 154);
+}
+tbody tr:nth-child(even) td:nth-child(4){
+    background-color: rgb(252, 205, 213);
+}
+tbody tr:nth-child(odd) th{
+    background-color: white;
+}
+tbody tr:nth-child(even) th{
+    background-color: RGB(226, 226, 226);
+}
+thead tr th:nth-child(2),thead tr th:nth-child(3),thead tr th:nth-child(4){
+    background-image: url('header.png');
+    width: 150px;
+    height: 100px;
+}
+
+th, td{
+    border-left: 11px #dd8F16 solid;
+    padding: 10px;
+}
+tfoot>tr>td{
+   background-color: white;
+
+}
